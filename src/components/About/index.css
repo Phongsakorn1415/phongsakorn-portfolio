@@ -1,0 +1,72 @@
+.content{
+    background: radial-gradient(ellipse at top, #1B2735 0%, #090A0F 100%);
+    flex-wrap: wrap;
+    min-height: 100vh;
+    overflow: hidden;
+    display: flex;
+    position: relative;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.content-card{
+    background-color: #ffffff0a;
+    padding: 2%;
+    min-height: 80vh;
+    width: 80%;
+    max-width: 1200px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.content-card::-webkit-scrollbar  {
+    width: 5px;
+  }
+   
+  /* Handle */
+  .content-card::-webkit-scrollbar-thumb {
+    background: #888; 
+  }
+  
+  /* Handle on hover */
+  .content-card::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+  }
+
+@media (max-width: 768px) {
+    .content {
+        flex-direction: column; /* เปลี่ยนจาก row เป็น column */
+    }
+    .content-card {
+        width: 100%; /* ปรับขนาดให้เต็มจอ */
+        min-height: auto; /* ให้ขยายตามเนื้อหา */
+    }
+}
+
+.header{
+    font-size: 3.5rem;
+}
+
+.subheader{
+    font-size: 1.5rem;
+}
+
+@keyframes bounce {
+    0%, 100% {
+        transform: translateX(-10%);
+        animation-timing-function: cubic-bezier(0.8,0,1,1);
+    }
+    50% {
+        transform: translateX(15%);
+        animation-timing-function: cubic-bezier(0,0,0.2,1);
+    }
+}
+.animate-bounce{
+    animation: bounce 1s infinite;
+}

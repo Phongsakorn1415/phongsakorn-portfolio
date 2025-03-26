@@ -1,0 +1,19 @@
+.content{
+    background: radial-gradient(ellipse at top, #1B2735 0%, #090A0F 100%);
+    height: 100vh;
+    position: relative;
+    color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.content-card{
+    background-color: #ffffff0a;
+    padding: 2%;
+    height: 80vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}

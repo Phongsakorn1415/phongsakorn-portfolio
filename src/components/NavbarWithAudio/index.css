@@ -1,0 +1,50 @@
+.volume-container {
+    position: relative;
+    display: inline-block;
+}
+  
+  /* ซ่อน slider ไว้ก่อน */
+.volume-slider {
+    display: none;
+    position: absolute;
+    left: 40px; /* ปรับตามต้องการ */
+    top: 0;    /* ปรับตามต้องการ */
+    width: 100px;
+}
+  
+  /* เมื่อ hover บน .volume-container ให้แสดง slider */
+.volume-container:hover .volume-slider {
+    display: block;
+}
+
+/* เมื่อ scroll ลง */
+.navbar.scrolled .navbar-brand div:last-child {
+    display: inline;
+}
+  
+  /* ปกติ */
+.navbar .navbar-brand div:last-child {
+    display: block;
+}
+  
+  /* ให้เพิ่มระยะห่างระหว่าง text ถ้าจำเป็น */
+.navbar.scrolled .navbar-brand div {
+    display: inline;
+    margin-right: 10px;
+}
+
+/* Animation สำหรับ "Portfolio" */
+.portfolio-text {
+    transition: transform 0.3s ease-out, opacity 0.3s ease-out;
+}
+  
+.portfolio-text.scroll-up {
+    transform: translateY(-30px); /* เลื่อนขึ้น 30px */
+    opacity: 0; /* ทำให้โปร่งใส */
+}
+
+.link-active{
+  color: white;
+  font-weight: bolder;
+}
+  
