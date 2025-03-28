@@ -53,7 +53,7 @@ const Banner = () =>{
             </a>
           </div>
           <div className="my-4">
-            <Link to='Contact' className='btn btn-primary' smooth={true} duration={100}>ติดต่อฉัน</Link>
+            <Link to='Contact' className='btn btn-primary' smooth={true} duration={100}>Contact Me</Link>
           </div>
         </div>
       </div>
