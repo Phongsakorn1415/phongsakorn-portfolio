@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/phongsakorn-portfolio/static/css/main.b3693c1f.css",
-    "main.js": "/phongsakorn-portfolio/static/js/main.57b49d49.js",
+    "main.js": "/phongsakorn-portfolio/static/js/main.826e1015.js",
     "static/js/453.85d8d979.chunk.js": "/phongsakorn-portfolio/static/js/453.85d8d979.chunk.js",
     "static/media/20230201_175425.jpg": "/phongsakorn-portfolio/static/media/20230201_175425.e8c43780ffc7feed0855.jpg",
     "static/media/MiSide OST MainMenu UPD.mp3": "/phongsakorn-portfolio/static/media/MiSide OST MainMenu UPD.bfdd210ea2be4b77ad1c.mp3",
@@ -17,11 +17,11 @@
     "static/media/fontawesome-webfont.woff2?v=4.7.0": "/phongsakorn-portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
     "index.html": "/phongsakorn-portfolio/index.html",
     "main.b3693c1f.css.map": "/phongsakorn-portfolio/static/css/main.b3693c1f.css.map",
-    "main.57b49d49.js.map": "/phongsakorn-portfolio/static/js/main.57b49d49.js.map",
+    "main.826e1015.js.map": "/phongsakorn-portfolio/static/js/main.826e1015.js.map",
     "453.85d8d979.chunk.js.map": "/phongsakorn-portfolio/static/js/453.85d8d979.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.b3693c1f.css",
-    "static/js/main.57b49d49.js"
+    "static/js/main.826e1015.js"
   ]
 }
