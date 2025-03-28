@@ -11,6 +11,7 @@ import { WorkEXP } from './content/WorkEXP';
 import Content from './components/Content';
 import About from './components/About';
 import EventContent from './content/EventContent';
+import Contact from './components/Contact';
 
 function App() {
   document.title = "Portfolio | Phongsakorn"
@@ -23,19 +24,21 @@ function App() {
       <About/>
       <Timeline
         name = 'Education'
-        MainTitle = 'ประวัติการศึกษา'
+        MainTitle = 'Educational Background'
         data = {EducationContent}
+        // BGtype = "bg1"
       />
       <Timeline
         name = 'Work'
-        MainTitle = "ประสบการณ์การทำงาน"
+        MainTitle = "Work Experience"
         data = {WorkEXP}
       />
       <Timeline
         name = 'Event'
-        MainTitle = "กิจกรรมที่เข้าร่วม"
+        MainTitle = "Activities Participated"
         data = {EventContent}
       />
+      <Contact/>
     </div>
     
   );

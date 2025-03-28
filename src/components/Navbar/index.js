@@ -2,7 +2,7 @@ import React, {useState} from "react";
 import { Link } from "react-scroll";
 import './index.css'
 
-const Navbar = ({ activeSection }) => {
+const Navbar = () => {
     return (
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top p-2">
             <div class="container">

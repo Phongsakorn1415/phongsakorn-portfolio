@@ -1,0 +1,27 @@
+.contact{
+    /* background: radial-gradient(ellipse at top, #1B2735 0%, #090A0F 100%); */
+    height: 110vh;
+    position: relative;
+    color: white;
+    padding-top: 5%;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.contact-card{
+    background-color: #ffffff0a;
+    height: 90vh;
+    position: absolute;
+    width: 100%;
+}
+
+@media (max-width: 768px) {
+    /* .contact {
+        min-height: 150vh;
+    } */
+
+    .contact-card{
+        height: 95vh;
+    }
+}

@@ -105,7 +105,10 @@ const useAudio = (url) => {
                             <Link className="nav-link curser-pointer" to="Work" smooth={true} duration={100} activeClass='active fw-bolder mx-3' spy>Work Experience</Link>
                         </li>
                         <li className="nav-item">
-                            <Link className="nav-link curser-pointer" to="Event" smooth={true} duration={100} activeClass='active fw-bolder mx-3' spy>Event</Link>
+                            <Link className="nav-link curser-pointer" to="Event" smooth={true} duration={100} activeClass='active fw-bolder mx-3' spy>Activities</Link>
+                        </li>
+                        <li className="nav-item">
+                            <Link className="nav-link curser-pointer" to="Contact" smooth={true} duration={100} activeClass='active fw-bolder mx-3' spy>Contact</Link>
                         </li>
                     </ul>
 

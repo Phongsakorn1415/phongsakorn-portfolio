@@ -3,6 +3,8 @@ import { TypeAnimation } from 'react-type-animation';
 import './index.css'
 import { BannerData } from "../../content/BannerContent";
 import { Link, Element } from "react-scroll";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
 
 const Banner = () =>{
   const ContentRender = (type,Class,content,ScrollLink) =>{
@@ -44,8 +46,14 @@ const Banner = () =>{
             }) => (ContentRender(type,Class,content)))
           }
           
+          <div>
+            <a href="https://github.com/Phongsakorn1415" target="_blank" className="mt-4 btn btn-secondary">
+              <FontAwesomeIcon icon={faGithub} className="me-2 fs-5"/>
+              Visit My Github
+            </a>
+          </div>
           <div className="my-4">
-            <Link to='About' className='btn btn-primary' smooth={true} duration={500}>About Me</Link>
+            <Link to='Contact' className='btn btn-primary' smooth={true} duration={100}>ติดต่อฉัน</Link>
           </div>
         </div>
       </div>

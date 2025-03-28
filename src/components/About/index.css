@@ -1,8 +1,10 @@
 .content{
-    background: radial-gradient(ellipse at top, #1B2735 0%, #090A0F 100%);
+    /* background: radial-gradient(ellipse at top, #1B2735 0%, #090A0F 100%); */
+    align-items: center;
+    background: #131c25;
     flex-wrap: wrap;
     min-height: 100vh;
-    overflow: hidden;
+    /* overflow: hidden; */
     display: flex;
     position: relative;
     color: white;
@@ -11,7 +13,7 @@
 }
 
 .content-card{
-    background-color: #ffffff0a;
+    /* background-color: #ffffff0a; */
     padding: 2%;
     min-height: 80vh;
     width: 80%;
@@ -23,6 +25,10 @@
     text-align: center;
     overflow-y: auto;
     overflow-x: hidden;
+}
+
+.about-content{
+    background: #ffffff0a;
 }
 
 .content-card::-webkit-scrollbar  {
@@ -42,11 +48,16 @@
 @media (max-width: 768px) {
     .content {
         flex-direction: column; /* เปลี่ยนจาก row เป็น column */
+        min-height: 200vh;
     }
     .content-card {
         width: 100%; /* ปรับขนาดให้เต็มจอ */
-        min-height: auto; /* ให้ขยายตามเนื้อหา */
+        min-height: 150vh; /* ให้ขยายตามเนื้อหา */
     }
+
+    /* .about-content{
+        margin-top: px;
+    } */
 }
 
 .header{

@@ -2,7 +2,12 @@ export const BannerData = [
     {
         type : 'text',
         Class : 'banner-header',
-        content : 'สวัสดี, ผม พงศกร สุวรรณะ'
+        content : 'Hello'
+    },
+    {
+        type : 'text',
+        Class : 'banner-header',
+        content : 'I am Phongsakorn'
     },
     {
         type : 'animation',

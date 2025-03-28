@@ -11,8 +11,8 @@ const About = () => {
     return(
         <Element name="About">
             <div className="content">
-                <div className="container content-card rounded-2">
-                    <div className="text-center" style={{fontSize: '2rem'}}>{AboutContent.title}</div>
+                <div className="container rounded-2">
+                    {/* <div className="text-center" style={{fontSize: '2rem'}}>{AboutContent.title}</div> */}
                     <div className="row">
                         <div className="col-lg-6 col-md-6 col-sm-12 d-block justify-content-center py-3">
                             <div className="mb-4">
@@ -33,13 +33,13 @@ const About = () => {
                                 </a>
                             </div>
                             <div>
-                                <a href={AboutContent.Github} target="_blank" className="mt-4 btn btn-secondary fs-5">
+                                {/* <a href={AboutContent.Github} target="_blank" className="mt-4 btn btn-secondary fs-5">
                                     <FontAwesomeIcon icon={faGithub} className="me-2"/>
                                     Visit My Github
-                                </a>
+                                </a> */}
                             </div>
                         </div>
-                        <div className="col-lg-6 col-md-6 col-sm-12 d-block justify-content-center py-3 px-3 text-center">
+                        <div className="col-lg-6 col-md-6 col-sm-12 d-block justify-content-center py-3 px-3 text-center about-content rounded-4">
                             <div className="header">{AboutContent.name}</div>
                             <div className="subheader mb-3">{AboutContent.status}</div>
                             {
