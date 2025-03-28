@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/phongsakorn-portfolio/static/css/main.b3693c1f.css",
+    "main.js": "/phongsakorn-portfolio/static/js/main.57b49d49.js",
+    "static/js/453.85d8d979.chunk.js": "/phongsakorn-portfolio/static/js/453.85d8d979.chunk.js",
+    "static/media/20230201_175425.jpg": "/phongsakorn-portfolio/static/media/20230201_175425.e8c43780ffc7feed0855.jpg",
+    "static/media/MiSide OST MainMenu UPD.mp3": "/phongsakorn-portfolio/static/media/MiSide OST MainMenu UPD.bfdd210ea2be4b77ad1c.mp3",
+    "static/media/transcrpt.pdf": "/phongsakorn-portfolio/static/media/transcrpt.459341bf604fa8c81641.pdf",
+    "static/media/STP_8397.png": "/phongsakorn-portfolio/static/media/STP_8397.79def826a24a53e19e15.png",
+    "static/media/fontawesome-webfont.svg?v=4.7.0": "/phongsakorn-portfolio/static/media/fontawesome-webfont.c1e38fd9e0e74ba58f7a.svg",
+    "static/media/1671085539133.jpg": "/phongsakorn-portfolio/static/media/1671085539133.72cfe8e907858e3fc3f0.jpg",
+    "static/media/fontawesome-webfont.eot": "/phongsakorn-portfolio/static/media/fontawesome-webfont.8b43027f47b20503057d.eot",
+    "static/media/fontawesome-webfont.ttf?v=4.7.0": "/phongsakorn-portfolio/static/media/fontawesome-webfont.1e59d2330b4c6deb84b3.ttf",
+    "static/media/1671085524154.jpg": "/phongsakorn-portfolio/static/media/1671085524154.b92530e71426cf8cb8bc.jpg",
+    "static/media/TH Resume.pdf": "/phongsakorn-portfolio/static/media/TH Resume.759acb61274ac9b5110d.pdf",
+    "static/media/fontawesome-webfont.woff?v=4.7.0": "/phongsakorn-portfolio/static/media/fontawesome-webfont.f691f37e57f04c152e23.woff",
+    "static/media/fontawesome-webfont.woff2?v=4.7.0": "/phongsakorn-portfolio/static/media/fontawesome-webfont.20fd1704ea223900efa9.woff2",
+    "index.html": "/phongsakorn-portfolio/index.html",
+    "main.b3693c1f.css.map": "/phongsakorn-portfolio/static/css/main.b3693c1f.css.map",
+    "main.57b49d49.js.map": "/phongsakorn-portfolio/static/js/main.57b49d49.js.map",
+    "453.85d8d979.chunk.js.map": "/phongsakorn-portfolio/static/js/453.85d8d979.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b3693c1f.css",
+    "static/js/main.57b49d49.js"
+  ]
+}
